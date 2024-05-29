@@ -136,7 +136,7 @@ $ nano regapp-deployment.yml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: virtualtechbox-regapp
+  name: Sanjaya-regapp
   labels:
      app: regapp
 
@@ -153,7 +153,7 @@ spec:
     spec:
       containers:
       - name: regapp
-        image: ashfaque9x/regapp
+        image: sanjaya/regapp
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
@@ -169,7 +169,7 @@ $ nano regapp-service.yml
 apiVersion: v1
 kind: Service
 metadata:
-  name: virtualtechbox-service
+  name: sanjaya-service
   labels:
     app: regapp 
 spec:
