@@ -124,7 +124,7 @@ sudo mv /tmp/eksctl /bin
 eksctl version
 
 4--Setup Kubernetes using eksctl
-eksctl create cluster --name virtualtechbox-cluster \
+eksctl create cluster --name sanjaya-cluster \
 --region ap-south-1 \
 --node-type t2.small \
 --nodes 3 \
